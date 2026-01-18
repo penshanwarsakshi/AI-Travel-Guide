@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Travel Guide</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="chat-container">
+    <div class="chat-header">✈️ AI Travel Guide</div>
+
+    <div class="messages" id="messages">
+      <div class="message bot">
+        Hello Traveler 🌍  
+        <br>Ask me about places, budgets, packing, or travel tips.
+        <br>Example: <b>Places to visit in Goa</b>
+      </div>
+    </div>
+
+    <div class="chat-input">
+      <input type="text" id="userInput" placeholder="Ask your travel question..." />
+      <button onclick="sendMessage()">Send</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
